@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 5px;
+
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
+    margin: 20px 0;
+}
+li, dd, blockquote {
+    margin-left: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+header {
+    background-image: url('../img/bghead.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #A002CC;
+    font-family: 'Oswald',sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+    text-shadow: 1px 1px white;
+}
+
+.menu {
+    position: absolute;
+    top:20px;
+    right: 50px;
+
+
+
+}
+.menu a:hover {
+    color:yellow; 
+}
+
+#imghistory {
+    background-image: url('../img/history.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+#typography {
+    background-image: url('../img/typo.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#coloris {
+    background-image: url('../img/colour.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+
+#idea {
+    background-image: url('../img/idea.jpg');
+    height: 100vh;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.slogan {
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+    margin-top: 12%;
+    font-family: 'Oswald';
+}
+
+.slogan2 {
+    font-size: 50px;
+    text-align: center;
+    color: #00BDFC;
+    margin-top: 2%;
+    font-family: 'Oswald';
+    text-shadow: 1px 1px white;
+
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #00BDFC;
+    margin-top: 0;
+    font-family: 'Oswald';
+    text-shadow: 1px 1px white;
+}
+
+p {
+    font-size: 25px;
+    color: #fff;
+    text-align: justify;
+    text-indent: 10px;
+    margin-left:10px;
+    margin-right:10px; 
+    text-shadow: 1px 1px black;
+    font-family: 'Open Sans';
+}
+ol li {
+    font-family: 'Open Sans' ;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    list-style-type: none;
+}
+
+.start{
+    padding-top: 0;
+    text-align: center;
+}
+
+.heky{
+    padding-top: 1%;
+}
+
+.col {
+    color:#08C9A6;
+    text-shadow: 1px 2px black;
+}
+
+footer {
+height: 10vh;
+background-color: #302F2F;
+width: 100%;
+}
+
+.buttton a:hover{
+    background-color: #C21313;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.histext {
+    margin-top: 0;
+float: left;
+font-size: 20px;
+}
+.ph {
+float: left;
+margin-bottom: 100%;
+}

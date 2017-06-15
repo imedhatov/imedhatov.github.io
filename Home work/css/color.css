@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Pangolin');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+    vertical-align: baseline;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding: 5px;
+
+}
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {
+    margin: 20px 0;
+}
+li, dd, blockquote {
+    margin-left: 40px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+header {
+    background-image: url('../img/colour.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #A002CC;
+    font-family: 'Oswald',sans-serif;
+    margin-left: 30px;
+    font-size: 30px;
+    text-shadow: 1px 1px white;
+}
+
+.menu {
+    position: absolute;
+    top:20px;
+    right: 50px;
+    }
+.menu a:hover {
+    color:yellow; 
+    }
+
+#content {
+    background-image: url('../img/typo.jpg');
+    height: 150vh;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    }
+
+
+.slogan {
+    font-size: 200px;
+    text-align: center;
+    color: #fff;
+    margin-top: 8%;
+    font-family: 'Oswald';
+      text-shadow: 1px 1px black;
+    }
+
+.slogan2 {
+    font-size: 50px;
+    text-align: center;
+    color: #00BDFC;
+    margin-top: 2%;
+    font-family: 'Oswald';
+  
+    text-shadow: 1px 1px white;
+    }
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    color: #00BDFC;
+    margin-top: 0;
+    font-family: 'Oswald';
+    text-shadow: 1px 1px white;
+}
+
+p {
+    font-size: 25px;
+    color: #fff;
+    text-align: justify;
+    text-indent: 10px;
+    margin-left:10px;
+    margin-right:10px; 
+    text-shadow: 1px 1px black;
+    font-family: 'Open Sans';
+}
+ol li {
+    font-family: 'Open Sans' ;
+    font-size: 28px;
+    color: #fff;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    list-style-type: none;
+}
+
+.par {
+    background-color: #000;
+}
